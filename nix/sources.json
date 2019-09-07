@@ -1,15 +1,15 @@
 {
     "nixpkgs": {
         "homepage": "https://github.com/NixOS/nixpkgs",
-        "url": "https://github.com/NixOS/nixpkgs-channels/archive/0d79decdb3ba7da459aafb002745a10bb97141bb.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/4179ba049cf1a35bad5e9ae43c01b5c7bffa724e.tar.gz",
         "owner": "NixOS",
-        "branch": "nixos-19.03",
+        "branch": "nixpkgs-unstable",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
         "repo": "nixpkgs-channels",
         "type": "tarball",
-        "sha256": "0rjwmy778mzp845lap10vfrshm3llhavri889qq7khn58wxvazq5",
+        "sha256": "00rrmd2riib4hlmjbla1dv8ys3amjn1mxlfyx3bn7xvmcxl677sp",
         "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
-        "rev": "0d79decdb3ba7da459aafb002745a10bb97141bb"
+        "rev": "4179ba049cf1a35bad5e9ae43c01b5c7bffa724e"
     },
     "hie-bios": {
         "url": "https://github.com/mpickering/hie-bios/archive/b193b31cdfc0e3e246610d4f7e62e88843c26f7f.tar.gz",
