@@ -1,0 +1,66 @@
+{
+    "nixpkgs": {
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/0d79decdb3ba7da459aafb002745a10bb97141bb.tar.gz",
+        "owner": "NixOS",
+        "branch": "nixos-19.03",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "nixpkgs-channels",
+        "type": "tarball",
+        "sha256": "0rjwmy778mzp845lap10vfrshm3llhavri889qq7khn58wxvazq5",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "rev": "0d79decdb3ba7da459aafb002745a10bb97141bb"
+    },
+    "hie-bios": {
+        "url": "https://github.com/mpickering/hie-bios/archive/b193b31cdfc0e3e246610d4f7e62e88843c26f7f.tar.gz",
+        "owner": "mpickering",
+        "branch": "master",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "hie-bios",
+        "type": "tarball",
+        "sha256": "06j04gxqlp46dbbcwawclhrygnsw36x3gi80xdphk73mwzn8ciq4",
+        "rev": "b193b31cdfc0e3e246610d4f7e62e88843c26f7f"
+    },
+    "rope-utf16-splay": {
+        "homepage": "",
+        "url": "https://github.com/ollef/rope-utf16-splay/archive/675875d6a0469fc0ce5657f6e144b0af6e8364e2.tar.gz",
+        "owner": "ollef",
+        "branch": "0.3.1.0",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "rope-utf16-splay",
+        "type": "tarball",
+        "sha256": "042vk469m5dwhxhpbjjw9sv5ldn98y3z6a25s294nzs2pgc8nfiy",
+        "description": "Thick strings optimised for indexing and updating using UTF-16 code units and row/column pairs",
+        "rev": "675875d6a0469fc0ce5657f6e144b0af6e8364e2"
+    },
+    "hie-core": {
+        "homepage": "https://daml.com/",
+        "url": "https://github.com/digital-asset/daml/archive/aa1e95173a1eeb278b473394a4613fa7e9227ab2.tar.gz",
+        "owner": "digital-asset",
+        "branch": "master",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "daml",
+        "type": "tarball",
+        "sha256": "0x9k59a82v7ih9hr5zvxc9jf55sxjs4hpa1x1gz54hs52d5nzjf8",
+        "description": "The DAML smart contract language",
+        "rev": "aa1e95173a1eeb278b473394a4613fa7e9227ab2"
+    },
+    "haskell-lsp": {
+        "url": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
+        "url_template": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
+        "type": "tarball",
+        "sha256": "1gsabw497qvj8fyk17awby0ny03dciahv0qh0is5w2wix2nwj5pa"
+    },
+    "niv": {
+        "homepage": "https://github.com/nmattia/niv",
+        "url": "https://github.com/nmattia/niv/archive/213315b65807ceae979da902875efaad1c53dc1d.tar.gz",
+        "owner": "nmattia",
+        "branch": "master",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "niv",
+        "type": "tarball",
+        "sha256": "1cczwqnmfs17i00gn8s9l7sf2s3h498gzlv7wrkdin4v31lydv08",
+        "description": "Easy dependency management for Nix projects",
+        "rev": "213315b65807ceae979da902875efaad1c53dc1d"
+    }
+}
