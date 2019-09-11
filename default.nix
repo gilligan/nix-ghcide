@@ -10,6 +10,7 @@ let
   overlay = self: pkgs: {
     hsPkgs = pkgs.haskell.packages.${compiler}.override {
       overrides = new: old: {
+        Diff = if compiler == "ghc844" then pkgs.haskell.lib.dontCheck old.Diff else old.Diff;
         rope-utf16-splay = old.callCabal2nix "rope-utf16-splay" "${rope}" {};
         hie-bios = pkgs.haskell.lib.doJailbreak (old.callCabal2nix "hie-bios" "${bios}" {});
         haskell-lsp-types = pkgs.haskell.lib.doJailbreak (old.callCabal2nix "haskell-lsp" "${haskell-lsp}/haskell-lsp-types" {});
