@@ -12,14 +12,26 @@
         "rev": "4179ba049cf1a35bad5e9ae43c01b5c7bffa724e"
     },
     "hie-bios": {
-        "url": "https://github.com/mpickering/hie-bios/archive/b193b31cdfc0e3e246610d4f7e62e88843c26f7f.tar.gz",
+        "url": "https://github.com/mpickering/hie-bios/archive/89e4ba24f87aac9909d9814b0e8c51b679a0ccd4.tar.gz",
         "owner": "mpickering",
         "branch": "master",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
         "repo": "hie-bios",
         "type": "tarball",
-        "sha256": "06j04gxqlp46dbbcwawclhrygnsw36x3gi80xdphk73mwzn8ciq4",
-        "rev": "b193b31cdfc0e3e246610d4f7e62e88843c26f7f"
+        "sha256": "0pk13wf5h2ik2g1sdrhgfmq8078r61ynwpm0n6vxij7a30c0av39",
+        "rev": "89e4ba24f87aac9909d9814b0e8c51b679a0ccd4"
+    },
+    "ghcide": {
+        "homepage": "",
+        "url": "https://github.com/digital-asset/ghcide/archive/44b11667d8593ae84c48ca88e96f4f227deec096.tar.gz",
+        "owner": "digital-asset",
+        "branch": "master",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "repo": "ghcide",
+        "type": "tarball",
+        "sha256": "1b5zdh0vcls63xk6l4ff0y02k16wxif8989wqkchw20hra226k5b",
+        "description": "A library for building Haskell IDE tooling",
+        "rev": "44b11667d8593ae84c48ca88e96f4f227deec096"
     },
     "rope-utf16-splay": {
         "homepage": "",
@@ -32,18 +44,6 @@
         "sha256": "042vk469m5dwhxhpbjjw9sv5ldn98y3z6a25s294nzs2pgc8nfiy",
         "description": "Thick strings optimised for indexing and updating using UTF-16 code units and row/column pairs",
         "rev": "675875d6a0469fc0ce5657f6e144b0af6e8364e2"
-    },
-    "hie-core": {
-        "homepage": "https://daml.com/",
-        "url": "https://github.com/digital-asset/daml/archive/aa1e95173a1eeb278b473394a4613fa7e9227ab2.tar.gz",
-        "owner": "digital-asset",
-        "branch": "master",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "daml",
-        "type": "tarball",
-        "sha256": "0x9k59a82v7ih9hr5zvxc9jf55sxjs4hpa1x1gz54hs52d5nzjf8",
-        "description": "The DAML smart contract language",
-        "rev": "aa1e95173a1eeb278b473394a4613fa7e9227ab2"
     },
     "haskell-lsp": {
         "url": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",

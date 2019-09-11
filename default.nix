@@ -1,27 +1,25 @@
-{ pkgs ? import ((import ./nix/sources.nix).nixpkgs) {}
+{ pkgs ? (import ./nix/sources.nix).nixpkgs 
 , bios ? (import ./nix/sources.nix).hie-bios
-, core ? (import ./nix/sources.nix).hie-core
+, ghcide ? (import ./nix/sources.nix).ghcide
 , rope ? (import ./nix/sources.nix).rope-utf16-splay
 , haskell-lsp ? (import ./nix/sources.nix).haskell-lsp
 , compiler ? "ghc864"
 }:
 
 let
-  callCabal2nix = pkgs.haskell.packages.${compiler}.callCabal2nix;
-  doJailbreak = pkgs.haskell.lib.doJailbreak;
-  dontCheck = pkgs.haskell.lib.dontCheck;
-
-  hie-bios = doJailbreak (callCabal2nix "hie-bios" "${bios}" {});
-
-  rope-utf16-splay = callCabal2nix "rope-utf16-splay" "${rope}" {};
-
-  lsp-types = doJailbreak (callCabal2nix "haskell-lsp" "${haskell-lsp}/haskell-lsp-types" {});
-
-  lsp = doJailbreak (callCabal2nix "haskell-lsp" "${haskell-lsp}" { haskell-lsp-types = lsp-types; rope-utf16-splay = rope-utf16-splay;});
-
+  overlay = self: pkgs: {
+    hsPkgs = pkgs.haskell.packages.${compiler}.override {
+      overrides = new: old: {
+        rope-utf16-splay = old.callCabal2nix "rope-utf16-splay" "${rope}" {};
+        hie-bios = pkgs.haskell.lib.doJailbreak (old.callCabal2nix "hie-bios" "${bios}" {});
+        haskell-lsp-types = pkgs.haskell.lib.doJailbreak (old.callCabal2nix "haskell-lsp" "${haskell-lsp}/haskell-lsp-types" {});
+        haskell-lsp = pkgs.haskell.lib.doJailbreak (old.callCabal2nix "haskell-lsp" "${haskell-lsp}" {});
+        ghcide = pkgs.haskell.lib.dontCheck (pkgs.haskell.lib.doJailbreak (old.callCabal2nix "ghcide" "${ghcide}" {}));
+      };
+    };
+  };
 in
-  dontCheck (doJailbreak (callCabal2nix "hie-core" "${core}/compiler/hie-core" { 
-    inherit hie-bios; 
-    haskell-lsp = lsp; 
-    haskell-lsp-types = lsp-types;
-  }))
+  let 
+    nixpkgs = (import pkgs {config = {}; overlays = [overlay]; });
+  in
+    nixpkgs.hsPkgs.ghcide
