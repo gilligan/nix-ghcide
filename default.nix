@@ -24,3 +24,4 @@ in
     nixpkgs = (import pkgs {config = {}; overlays = [overlay]; });
   in
     nixpkgs.hsPkgs.ghcide
+    
