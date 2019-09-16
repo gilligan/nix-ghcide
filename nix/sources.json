@@ -1,66 +1,68 @@
 {
-    "nixpkgs": {
-        "homepage": "https://github.com/NixOS/nixpkgs",
-        "url": "https://github.com/NixOS/nixpkgs-channels/archive/4179ba049cf1a35bad5e9ae43c01b5c7bffa724e.tar.gz",
-        "owner": "NixOS",
-        "branch": "nixpkgs-unstable",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "nixpkgs-channels",
-        "type": "tarball",
-        "sha256": "00rrmd2riib4hlmjbla1dv8ys3amjn1mxlfyx3bn7xvmcxl677sp",
-        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
-        "rev": "4179ba049cf1a35bad5e9ae43c01b5c7bffa724e"
-    },
-    "hie-bios": {
-        "url": "https://github.com/mpickering/hie-bios/archive/89e4ba24f87aac9909d9814b0e8c51b679a0ccd4.tar.gz",
-        "owner": "mpickering",
-        "branch": "master",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "hie-bios",
-        "type": "tarball",
-        "sha256": "0pk13wf5h2ik2g1sdrhgfmq8078r61ynwpm0n6vxij7a30c0av39",
-        "rev": "89e4ba24f87aac9909d9814b0e8c51b679a0ccd4"
-    },
     "ghcide": {
-        "homepage": "",
-        "url": "https://github.com/digital-asset/ghcide/archive/44b11667d8593ae84c48ca88e96f4f227deec096.tar.gz",
-        "owner": "digital-asset",
         "branch": "master",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "ghcide",
-        "type": "tarball",
-        "sha256": "1b5zdh0vcls63xk6l4ff0y02k16wxif8989wqkchw20hra226k5b",
         "description": "A library for building Haskell IDE tooling",
-        "rev": "44b11667d8593ae84c48ca88e96f4f227deec096"
-    },
-    "rope-utf16-splay": {
         "homepage": "",
-        "url": "https://github.com/ollef/rope-utf16-splay/archive/675875d6a0469fc0ce5657f6e144b0af6e8364e2.tar.gz",
-        "owner": "ollef",
-        "branch": "0.3.1.0",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "rope-utf16-splay",
+        "owner": "digital-asset",
+        "repo": "ghcide",
+        "rev": "8db311cd8dd9678c434a762edbc449cca748c678",
+        "sha256": "1fmd3wkm94nx14wx0906ahg99pidc54c45q2z26m9i0h7l9rfh3f",
         "type": "tarball",
-        "sha256": "042vk469m5dwhxhpbjjw9sv5ldn98y3z6a25s294nzs2pgc8nfiy",
-        "description": "Thick strings optimised for indexing and updating using UTF-16 code units and row/column pairs",
-        "rev": "675875d6a0469fc0ce5657f6e144b0af6e8364e2"
+        "url": "https://github.com/digital-asset/ghcide/archive/8db311cd8dd9678c434a762edbc449cca748c678.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "haskell-lsp": {
-        "url": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
-        "url_template": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
+        "sha256": "1gsabw497qvj8fyk17awby0ny03dciahv0qh0is5w2wix2nwj5pa",
         "type": "tarball",
-        "sha256": "1gsabw497qvj8fyk17awby0ny03dciahv0qh0is5w2wix2nwj5pa"
+        "url": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
+        "url_template": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz"
+    },
+    "hie-bios": {
+        "branch": "master",
+        "description": null,
+        "homepage": null,
+        "owner": "mpickering",
+        "repo": "hie-bios",
+        "rev": "5565e53bbaafe93b3eef9a3b5530e86eb3903156",
+        "sha256": "06gzq7wfyavnw9aby7n4cc843xpq7pvwdn3vfbgir6v873jqx565",
+        "type": "tarball",
+        "url": "https://github.com/mpickering/hie-bios/archive/5565e53bbaafe93b3eef9a3b5530e86eb3903156.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
-        "homepage": "https://github.com/nmattia/niv",
-        "url": "https://github.com/nmattia/niv/archive/213315b65807ceae979da902875efaad1c53dc1d.tar.gz",
-        "owner": "nmattia",
         "branch": "master",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "repo": "niv",
-        "type": "tarball",
-        "sha256": "1cczwqnmfs17i00gn8s9l7sf2s3h498gzlv7wrkdin4v31lydv08",
         "description": "Easy dependency management for Nix projects",
-        "rev": "213315b65807ceae979da902875efaad1c53dc1d"
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "213315b65807ceae979da902875efaad1c53dc1d",
+        "sha256": "1cczwqnmfs17i00gn8s9l7sf2s3h498gzlv7wrkdin4v31lydv08",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/213315b65807ceae979da902875efaad1c53dc1d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "4179ba049cf1a35bad5e9ae43c01b5c7bffa724e",
+        "sha256": "00rrmd2riib4hlmjbla1dv8ys3amjn1mxlfyx3bn7xvmcxl677sp",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/4179ba049cf1a35bad5e9ae43c01b5c7bffa724e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "rope-utf16-splay": {
+        "branch": "0.3.1.0",
+        "description": "Thick strings optimised for indexing and updating using UTF-16 code units and row/column pairs",
+        "homepage": "",
+        "owner": "ollef",
+        "repo": "rope-utf16-splay",
+        "rev": "675875d6a0469fc0ce5657f6e144b0af6e8364e2",
+        "sha256": "042vk469m5dwhxhpbjjw9sv5ldn98y3z6a25s294nzs2pgc8nfiy",
+        "type": "tarball",
+        "url": "https://github.com/ollef/rope-utf16-splay/archive/675875d6a0469fc0ce5657f6e144b0af6e8364e2.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
