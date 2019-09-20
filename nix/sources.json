@@ -12,21 +12,27 @@
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "haskell-lsp": {
-        "sha256": "1gsabw497qvj8fyk17awby0ny03dciahv0qh0is5w2wix2nwj5pa",
+        "branch": "0.16.0.0",
+        "description": "Haskell library for the Microsoft Language Server Protocol",
+        "homepage": null,
+        "owner": "alanz",
+        "repo": "haskell-lsp",
+        "rev": "725eec5a4130c30ef29413304de8e2b1123a4d15",
+        "sha256": "1ainhzg4hi68ggn2r471ch39vqkpa0asbmgzhfjfcyh6wljnk74f",
         "type": "tarball",
-        "url": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz",
-        "url_template": "https://github.com/alanz/haskell-lsp/archive/bfbd8630504ebc57b70948689c37b85cfbe589da.tar.gz"
+        "url": "https://github.com/alanz/haskell-lsp/archive/725eec5a4130c30ef29413304de8e2b1123a4d15.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "hie-bios": {
-        "branch": "master",
+        "branch": "0.2.0",
         "description": null,
         "homepage": null,
         "owner": "mpickering",
         "repo": "hie-bios",
-        "rev": "eb830844de4cba36faecb5ee697c6c2d9bd311ec",
-        "sha256": "153wjiax75zvd0hvsbksywrilpk9c99ab7lqc9vwm4q49ffn6yx5",
+        "rev": "66f31b42fba269380637f4cfb5c49f4d0e96cfa4",
+        "sha256": "0flwhjcbnqasab5icli8n10r9ph7swp6rbh71k0g1bdvslfxdjjj",
         "type": "tarball",
-        "url": "https://github.com/mpickering/hie-bios/archive/eb830844de4cba36faecb5ee697c6c2d9bd311ec.tar.gz",
+        "url": "https://github.com/mpickering/hie-bios/archive/66f31b42fba269380637f4cfb5c49f4d0e96cfa4.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
