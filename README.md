@@ -26,10 +26,6 @@ $ nix-env -iA ghcide-wrapper -f https://github.com/gilligan/nix-ghcide/tarball/m
 $ cachix use ghcide
 ```
 
-Note that this version relies on dependencies provided by `haskellPackages` so you won't
-have to build much anyway actually.
-
-
 ### But.. Why?
 
 I am aware that there is [ghcide-nix](https://github.com/hercules-ci/ghcide-nix) already
