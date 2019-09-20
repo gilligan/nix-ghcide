@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "digital-asset",
         "repo": "ghcide",
-        "rev": "8db311cd8dd9678c434a762edbc449cca748c678",
-        "sha256": "1fmd3wkm94nx14wx0906ahg99pidc54c45q2z26m9i0h7l9rfh3f",
+        "rev": "50e35f0e98241b9cbe0f716ee16c5c5871599ae1",
+        "sha256": "0fqdgzhxyv7pd8jk1pxdgrzipwf6ypll31kdrjqaayxjy13c35cl",
         "type": "tarball",
-        "url": "https://github.com/digital-asset/ghcide/archive/8db311cd8dd9678c434a762edbc449cca748c678.tar.gz",
+        "url": "https://github.com/digital-asset/ghcide/archive/50e35f0e98241b9cbe0f716ee16c5c5871599ae1.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "haskell-lsp": {
@@ -23,10 +23,10 @@
         "homepage": null,
         "owner": "mpickering",
         "repo": "hie-bios",
-        "rev": "5565e53bbaafe93b3eef9a3b5530e86eb3903156",
-        "sha256": "06gzq7wfyavnw9aby7n4cc843xpq7pvwdn3vfbgir6v873jqx565",
+        "rev": "eb830844de4cba36faecb5ee697c6c2d9bd311ec",
+        "sha256": "153wjiax75zvd0hvsbksywrilpk9c99ab7lqc9vwm4q49ffn6yx5",
         "type": "tarball",
-        "url": "https://github.com/mpickering/hie-bios/archive/5565e53bbaafe93b3eef9a3b5530e86eb3903156.tar.gz",
+        "url": "https://github.com/mpickering/hie-bios/archive/eb830844de4cba36faecb5ee697c6c2d9bd311ec.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
